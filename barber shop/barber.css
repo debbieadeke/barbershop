@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+  }
+  container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .profile {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .profile h2 {
+    margin-top: 0;
+  }
+
+  .specialties {
+    font-weight: bold;
+  }
+
+  .experience {
+    color: #333333;
+  }
+
+  .availability {
+    color: #333333;
+    margin-bottom: 10px;
+  }
+
+  .rating {
+    color: #333333;
+    font-weight: bold;
+  }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Shop</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+  <body style="background-color: rgb(171, 151, 173);">        
+    <nav class="navbar navbar-expand-lg bg-light fixed-top shadow">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarDisplayNavigations">
+            
+               <div class="navbar-nav">
+                 <a href="home.html" class="nav-link ">Home</a>&nbsp;
+                  <a href="signup.html" class="nav-link active">Sign up</a>&nbsp;
+                  <a href="barber.html" class="nav-link active">Barber Profiles</a>&nbsp;
+                  <a href="booking.html"class="nav-link">Booking</a>&nbsp;
+                  <a href="reviews.html" class="nav-link active">Barbershop Reviews</a>&nbsp;
+                  <a href="contactus.html"class="nav-link">Contact us</a>&nbsp;
+                </div>
+            </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row col-md-6 col-md-offset-3">
+            <div class="panel panel-primary">
+                <div class="panel-heading text-center">
+                    <h1>Registration Form</h1>
+                </div>
+                <div class="panel-body">
+                    <form action="connect.php" method="post">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" class="form-control" id="firstName" name="firstName" />
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" name="lastName"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Gender</label>
+                            <div>
+                                <label for="male" class="radio-inline"><input type="radio" name="gender" value="m" id="male">Female</label>
+                                <label for="female" class="radio-inline"><input type="radio" name="gender" value="f" id="female">Male</label>
+                                <label for="others" class="radio-inline"><input type="radio" name="gender" value="o" id="others">Others</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" id="email" name="email"/>
+                            </div>
+                            <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="text" class="form-control" id="password" name="password" />
+                            </div>
+                            <div class="form-group">
+                            <label for="number">Phone number</label>
+                            <input type="text" class="form-control" id="number" name="number"/>
+                            </div>
+                            <input type="submit" class="btn btn-primary">
+                        </form>
+                        </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="panel-footer text-right">
+                    <small>&copy; Quad Group</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+</body>
+</html>
